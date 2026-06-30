@@ -26,7 +26,7 @@
           
 
 
-        })
+        });
          function remove(){
           event.target.parentElement.remove()
 
