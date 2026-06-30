@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Records</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+
+<body>
+    <style>
+        #table2 {
+            margin-top: 50px;
+        }
+    </style>
+    <center>
+        <h1>STUDENT RECORDS MANAGEMENT</h1>
+    </center>
+
+
+    <div id="t1">
+        <center>
+            <form>
+                <table border="2" style="text-align: center;">
+                    <tr>
+                        <td>Name</td>
+                        <td><input id="sname" type="text" placeholder="Enter Your Name"></td>
+                    </tr>
+                    <tr>
+                        <td>Age</td>
+                        <td><input id="age" type="number" placeholder="Enter Your Age"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Gender</td>
+                        <td style="text-align: center; display: flex " ;>
+                            <input type="radio" name="gender" value="Male" style="width: 10px; margin-left: 25%;">Male
+                            <input type="radio" name="gender" value="Female"
+                                style="width: 10px; margin-left: 25%">Female
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>course</td>
+                        <td>
+                            <select id="course" style="padding: 15px; width: 100%; text-align: center;">
+                                <option>CSE</option>
+                                <option>EEE</option>
+                                <option>ECE</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input id="smail" type="email" placeholder="Enter Your Email"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="button" id="save"
+                                style="width: 100%; padding:10px; background-color: brown; font-size: 20px;">Save</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="button" id="view"
+                                style="width: 100%; padding:10px; background-color: brown; font-size: 20px;"
+                                onclick="view()">View</button></td>
+                    </tr>
+
+                </table>
+
+                <div id="t2">
+
+                    <table id="table2" border="2">
+                        <tr>
+                            <th>NAME</th>
+                            <th>AGE</th>
+                            <th>GENDER</th>
+                            <th>COURSE</th>
+                            <th>EMAIL</th>
+                            <th>REMOVE</th>
+                        </tr>
+                </div>
+
+                </table>
+            </form>
+        </center>
+
+
+    </div>
+
+    <div id="output">
+
+    </div>
+
+    <script src="sample.js"></script>
+</body>
+
+</html>

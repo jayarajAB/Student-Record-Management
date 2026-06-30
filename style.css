@@ -1,0 +1,65 @@
+* {
+    font-size: 20px;
+    align-items: center;
+}table {
+    border-spacing: 5px;
+    width: 50%;
+}
+
+select {
+    padding-right: 70%;
+}
+
+#heading {}
+
+#t1 {
+    background-color:
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0px;
+
+    flex-direction: column;
+
+
+}
+
+h1 {
+    padding-top: 50px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 40px;
+
+}
+
+td {
+    font-size: x-large;
+    font-size: 20px;
+
+}
+
+input {
+    padding: 10px;
+    width: 94%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+#remove {
+    width: 100%;
+    height: 25pxpx;
+
+}
+
+#t2 {
+
+    display: none;
+    padding-top: 50px;
+}
