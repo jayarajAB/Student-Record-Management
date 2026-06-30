@@ -21,7 +21,7 @@
           <td>${smail.value}</td>
           <button id="remove" type="button" onclick="remove(event)">${"Remove"}</button>`
           table2.append(tr);
-          document.querySelector('form').reset();
+          document.querySelector('form').reset()
 
           
 
